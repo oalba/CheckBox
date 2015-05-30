@@ -87,18 +87,18 @@ public class CheckBox extends JFrame {
 		btnEnviar.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseClicked(MouseEvent e) {
-				System.out.println("Has seleccionado las siguientes letras: ");
+				System.out.print("Has seleccionado las siguientes letras: ");
 				if (chckbxA.isSelected()==true){
-					System.out.println("A ");
+					System.out.print("A ");
 				};
 				if (chckbxB.isSelected()==true){
-					System.out.println("B ");
+					System.out.print("B ");
 				};
 				if (chckbxC.isSelected()==true){
-					System.out.println("C ");
+					System.out.print("C ");
 				};
 				if (chckbxD.isSelected()==true){
-					System.out.println("D ");
+					System.out.print("D ");
 				};
 			}
 		});
